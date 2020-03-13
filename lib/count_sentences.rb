@@ -15,7 +15,7 @@ class String
 self.end_with?("!")
   end
 
-  def count_sentences(string = "")
+  def count_sentences
  @sentences = self.split(/[.!?]/).reject {|x| x.empty?}.size
  #@sentences.count
  #binding.pry
