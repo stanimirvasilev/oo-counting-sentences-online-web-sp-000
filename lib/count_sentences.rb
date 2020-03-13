@@ -18,6 +18,6 @@ self.end_with?("!")
   def count_sentences(string = 0)
  @sentences = self.split(/\.|\!|\?/)
  @sentences.count
- binding.pry
+ #binding.pry
   end
 end
